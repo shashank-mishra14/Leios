@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/global/navbar";
 import { ContainerScroll } from '@/components/global/container-scroll-animation';
-import { Button } from '@/components/global/button';
+import { Button } from '@/components/ui/button';
 export default function Home() {
   return (
     <main>
