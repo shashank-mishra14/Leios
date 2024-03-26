@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { MenuIcon } from 'lucide-react'
 type Props = {}
 
 const Navbar = async(props: Props) => {
@@ -51,6 +52,7 @@ const Navbar = async(props: Props) => {
           </span>
         </Link>
         </aside>
+        <MenuIcon className='md:hidden'/>
         </header>
     )
 }
