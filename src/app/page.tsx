@@ -6,6 +6,7 @@ import { clients } from "@/lib/constants";
 import { products } from "@/lib/constants";
 import { HeroParallax } from "@/components/global/connect-parallax";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
+import { LampComponent } from "@/components/global/lamp";
 export default function Home() {
   return (
     <main>
@@ -39,6 +40,9 @@ export default function Home() {
       speed="slow"
       />
       <HeroParallax products={products}></HeroParallax>
+      <section className="mt-[-500px]">
+        <LampComponent/>
+      </section>
             </main>
   );
 }
