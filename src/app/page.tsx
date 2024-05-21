@@ -45,7 +45,7 @@ export default function Home() {
       <section>
         <HeroParallax products={products}></HeroParallax>
       </section>
-      <section className="mt-[-500px]">
+      <section className="mt-[0px]">
         <LampComponent />
         <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
           <CardContainer className="inter-var ">
